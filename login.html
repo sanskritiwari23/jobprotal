@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registor</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+<!-- header section starts -->
+    <header class="header">
+        <section class="flex">
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+
+            <a href="home.html" class="logo"><i class="fas fa-briefcase"></i>JOBPORTAL.</a>
+
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="jobs.html">All jobs</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Account</a>
+            </nav>
+            <a href="#" class="btn" style="margin-top: 0;"> Post Jobs</a>
+        </section>
+    </header>
+<!-- header section ends -->  
+    
+<!--account section starts--> 
+<div class="account-form-container">
+    <section class="account-form">
+
+        <form action="dashboard.php" method="post">
+            <h3>welcome back!</h3>
+            <label for="email">email</label>
+            <input type="email" maxlength="50" class="input" id="lname" required name="email">
+            <label for="password">password</label>
+            <input type="password" class="input" id="fname" name="password">
+            <p> don't have an account? <a href="registration.html"> register now</a></p>
+            <input type="submit" name="submit"  value="login now" id="" class=" btn" >
+        </form>
+    </section>
+</div>
+<!--account section ends-->  
+   
+   
+  
